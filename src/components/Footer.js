@@ -41,9 +41,7 @@ const Footer = () => {
 
             <div className="right">
                 <h4>About me</h4>
-                <p>hjjkdkjkjdkjkjkjkfdjdjsjkskjsjsjk
-                    sjjsjbjjsnsmsm ssmnsnsmnmsnmsnms
-                    sjjsnsjs
+                <p> I am a mern stack developer , looking for a great opportunity
                 </p>
                 <div className='social'>
                     <FaFacebook size={30} 
