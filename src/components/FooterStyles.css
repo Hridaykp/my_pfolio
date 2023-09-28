@@ -37,17 +37,20 @@
     flex-direction: column;
     padding: 1rem;
 }
-.social{
+.right .social{
     margin-top: 1rem;
+    padding-left: 10px;
 }
 
 h4{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: .7rem;
 }
 
-p{
-    font-size: 1.2rem;
+.right p{
+    font-size: 1.1rem;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media screen and (max-width: 640px) {

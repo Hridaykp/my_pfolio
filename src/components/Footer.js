@@ -1,6 +1,7 @@
 import React from 'react';
 import "./FooterStyles.css";
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -41,18 +42,32 @@ const Footer = () => {
 
             <div className="right">
                 <h4>About me</h4>
-                <p> I am a mern stack developer , looking for a great opportunity
+                <p> Hello, I'm Hriday Kumar Parnit, a passionate MERN stack developer with 
+                    a strong enthusiasm for creating innovative and user-centric web 
+                    applications. Currently I am looking for great opportunity 
+                    where I can make an impact and continue my journey in web development.
                 </p>
-                <div className='social'>
-                    <FaFacebook size={30} 
+                <div className='social'> 
+                    <Link to='https://www.linkedin.com/in/hriday-kumar-pranit-2a096114b/'>
+                        <FaLinkedin size={30} 
                             style={{color:'white', marginRight: '1rem'}}
-                    />
-                    <FaTwitter size={30} 
-                            style={{color:'white', marginRight: '1rem'}}
-                    />
-                    <FaLinkedin size={30} 
-                            style={{color:'white', marginRight: '1rem'}}
-                    />
+                         />
+                    </Link>
+                    
+                    {/* <Link to='https://github.com/Hridaykp' >
+                        <FaFacebook size={30} 
+                                style={{color:'white', marginRight: '1rem'}}
+                        />
+                    </Link> */}
+                    
+                    <Link to='https://github.com/Hridaykp'>
+                        <FaGithub size={30} 
+                                style={{color:'white', marginRight: '1rem'}}>
+                        </FaGithub>
+                    </Link>
+                    
+                    
+                    
                 </div>
             </div>
         </div>

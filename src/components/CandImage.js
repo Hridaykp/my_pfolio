@@ -7,7 +7,7 @@ const CandImage = () => {
   return (
     <div className="cand">
         <div className="mask">
-            <img className="intro-img" src="https://plus.unsplash.com/premium_photo-1678917651747-5c58fda9e7f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydGZvbGlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"alt="Itroimg"/>
+            <img className="intro-img" src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"alt="Itroimg"/>
         </div>
         <div className="content">
             <p>HRIDAY KUMAR PRANIT</p>
