@@ -27,7 +27,7 @@
 }
 .nav-menu li a:hover{
     color: #ada9a9;
-    text-decoration: underline;
+    font-size: 1.28rem;
 }
 
 .hamburger{

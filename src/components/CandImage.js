@@ -1,7 +1,7 @@
 import React from "react";
 import "./CandImagestyles.css"
 import { Link } from "react-router-dom";
-
+import Resume from 'file:///C:/Users/Hriday/Desktop/Hriday%20Kumar%20Pranit.pdf'
 
 const CandImage = () => {
   return (
@@ -15,6 +15,7 @@ const CandImage = () => {
             <div >
                 <Link to ='/project' className="btn">Projects</Link>
                 <Link to ='/contact' className="btn btn-light">Contact</Link>
+                <a href={Resume} rel ='noreferrer' target="_blank"> <button className="btn"> Resume</button></a>
             </div>
         </div>
     </div>
