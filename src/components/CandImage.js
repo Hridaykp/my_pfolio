@@ -11,7 +11,7 @@ const CandImage = () => {
         </div>
         <div className="content">
             <p>HRIDAY KUMAR PRANIT</p>
-            <h1>MERN Developer</h1>
+            <h1>web Developer</h1>
             <div >
                 <Link to ='/project' className="btn">Project</Link>
                 {/* <Link to ='/contact' className="btn btn-light">Contact</Link> */}
