@@ -8,10 +8,17 @@ const AboutContent = () => {
         <div className='about'>
             <div className='left'>
                 <h1>Who am I ?</h1>
-                <p>I am a Mern stack developer who developes and builds frontend & backend web applications</p>
+                <p> Hello, I'm Hriday Kumar Parnit, a passionate MERN stack developer with 
+                    a strong enthusiasm for creating innovative and user-centric web 
+                    applications. Currently I am looking for great opportunity 
+                    where I can make an impact and continue my journey in web development.
+                </p>
                 <Link to='/contact'>
                     <button className='btn'>Contact</button>
                 </Link>
+                <div>
+                    <h1 className='skills'>Skills</h1>
+                </div>
             </div>
             <div className='right'>
                 <div className='img-container'>

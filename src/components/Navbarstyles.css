@@ -25,10 +25,38 @@
     font-weight: 500;
     font-size: 1.3rem;
 }
-.nav-menu li a:hover{
-    color: #ada9a9;
-    font-size: 1.28rem;
+
+.nav-menu li a{
+    position: relative;
+    color: white;
+    text-decoration: none;
 }
+  
+.nav-menu li a:hover {
+    color: #d8c0c0;
+}
+  
+.nav-menu li a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 95%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d8c0c0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+  
+.nav-menu li a:hover::before {
+    transform: scaleX(1);
+}
+/* .nav-menu li a:hover{
+    color: #ada9a9;
+    font-size: 1.29rem;
+    text-decoration: underline white ;
+} */
 
 .hamburger{
     display: none;
@@ -56,6 +84,10 @@
     }
     .nav-menu li a {
         font-size: 1.8rem;
+    }
+    .nav-menu li a:hover{
+        color: #ada9a9;
+        /* font-size: 1.77rem; */
     }
     .hamburger{
         display: initial;

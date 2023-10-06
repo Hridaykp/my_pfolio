@@ -13,13 +13,13 @@ const CandImage = () => {
             <p>HRIDAY KUMAR PRANIT</p>
             <h1>MERN Developer</h1>
             <div >
-                <Link to ='/project' className="btn">Projects</Link>
-                <Link to ='/contact' className="btn btn-light">Contact</Link>
-                <a href={Resume} rel ='noreferrer' target="_blank"> <button className="btn"> Resume</button></a>
+                <Link to ='/project' className="btn">Project</Link>
+                {/* <Link to ='/contact' className="btn btn-light">Contact</Link> */}
+                <a href={Resume} rel ='noreferrer' target="_blank"> <button className="btn btn-light"> Resume</button></a>
             </div>
         </div>
     </div>
   )
 }
 
-export default CandImage
+export default CandImage;

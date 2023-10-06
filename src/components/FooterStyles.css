@@ -28,6 +28,7 @@
 
 .location p{
     line-height: 30px;
+    font-weight: 700;
 }
 
 .right{
@@ -42,6 +43,11 @@
     padding-left: 10px;
 }
 
+.l_icons:hover{
+    box-shadow: 0px 0px 3px 3px lightblue;
+    
+}
+
 
 h4{
     font-size: 1.2rem;
@@ -49,9 +55,11 @@ h4{
 }
 
 .right p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-top: 1rem;
+    
 }
 
 @media screen and (max-width: 640px) {
