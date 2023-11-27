@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import './AboutContentStyles.css';
 
-import React from 'react'
+import React, {useState} from 'react'
+import Skills from './Skills';
 
 const AboutContent = () => {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className='about'>
             <div className='left'>
@@ -17,7 +19,8 @@ const AboutContent = () => {
                     <button className='btn'>Contact</button>
                 </Link>
                 <div>
-                    <h1 className='skills'>Skills</h1>
+                    <button onClick={()=>{setIsOpen(!isOpen)}} className='btn btn-light' style={{marginTop:'20px'}}>Skills</button>
+                    {isOpen && <Skills/>}
                 </div>
             </div>
             <div className='right'>

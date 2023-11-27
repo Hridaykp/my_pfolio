@@ -35,8 +35,8 @@ const Footer = () => {
                             style={{color:'white', marginRight: '2rem'}}
                         />
                         <div>
-                            <p>Vill- jaharpur, Post- Garhi</p>
-                            <p>Etah(207001), U.P</p>
+                            <p>Downtown PG, vill-Samaspur, sector-51</p>
+                            <p>Gurgaon(122003), Haryana</p>
                         </div>
                     </div>
                 </div>
