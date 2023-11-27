@@ -13,7 +13,9 @@ const AboutContent = () => {
                 <p> Hello, I'm Hriday Kumar Parnit, a passionate MERN stack developer with 
                     a strong enthusiasm for creating innovative and user-centric web 
                     applications. Currently I am looking for great opportunity 
-                    where I can make an impact and continue my journey in web development.
+                    where I can make an impact and continue my journey in web development and 
+                    I am eager to learn more technologies.
+
                 </p>
                 <Link to='/contact'>
                     <button className='btn'>Contact</button>
